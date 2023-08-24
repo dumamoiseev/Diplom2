@@ -11,17 +11,5 @@ To apply the patch, change the root project
 accordingly, and delete the patch script.
 */
 changeProject(DslContext.projectId) {
-    features {
-        remove(0) {
-            githubAppConnection {
-                id = "PROJECT_EXT_19"
-                displayName = "GitHub App"
-                appId = "380262"
-                clientId = "Iv1.b3bc099ec68a9bfc"
-                clientSecret = "credentialsJSON:14243cb3-85f3-4ad6-b9f9-f4a851c2d4c3"
-                privateKey = "credentialsJSON:1ad17599-add7-41bd-9652-ec92b57b8a17"
-                ownerUrl = "https://github.com/dumamoiseev"
-            }
-        }
-    }
+    
 }
