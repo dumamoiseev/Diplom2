@@ -2,7 +2,6 @@ package patches.projects
 
 import jetbrains.buildServer.configs.kotlin.*
 import jetbrains.buildServer.configs.kotlin.Project
-import jetbrains.buildServer.configs.kotlin.projectFeatures.GitHubAppConnection
 import jetbrains.buildServer.configs.kotlin.projectFeatures.githubAppConnection
 import jetbrains.buildServer.configs.kotlin.ui.*
 
@@ -13,7 +12,7 @@ accordingly, and delete the patch script.
 */
 changeProject(DslContext.projectId) {
     features {
-        val feature1 = find<GitHubAppConnection> {
+        remove(0) {
             githubAppConnection {
                 id = "PROJECT_EXT_19"
                 displayName = "GitHub App"
@@ -23,8 +22,6 @@ changeProject(DslContext.projectId) {
                 privateKey = "credentialsJSON:1ad17599-add7-41bd-9652-ec92b57b8a17"
                 ownerUrl = "https://github.com/dumamoiseev"
             }
-        }
-        feature1.apply {
         }
     }
 }
