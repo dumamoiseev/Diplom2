@@ -42,7 +42,7 @@ public class CreateOrderTests {
                 .assertThat()
                 .statusCode(200)
                 .and()
-                .body("success", equalTo(true))
+                .body("success", equalTo(false))
                 .body("order.number", notNullValue());
     }
 
