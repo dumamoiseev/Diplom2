@@ -25,7 +25,6 @@ changeProject(DslContext.projectId) {
             }
         }
         feature1.apply {
-            appId = "38026211111"
             privateKey = "credentialsJSON:070f43c2-9a2b-4811-b41f-a4b07d9cce71"
             param("twoLevelEnabled", "")
         }
