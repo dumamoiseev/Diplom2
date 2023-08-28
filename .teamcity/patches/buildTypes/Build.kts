@@ -18,7 +18,7 @@ changeBuildType(RelativeId("Build")) {
                 vcsRootExtId = "${DslContext.settingsRoot.id}"
                 provider = github {
                     authType = storedToken {
-                        tokenId = "tc_token_id:CID_1b09133e4010480227975fc5b899e6de:-1:cccde4ce-c5c9-4198-9c29-f686bac33d57"
+                        tokenId = "tc_token_id:CID_1b09133e4010480227975fc5b899e6de:-1:bde05587-f9ad-4e1f-90e3-4bd090a06ca6"
                     }
                     filterAuthorRole = PullRequests.GitHubRoleFilter.MEMBER
                 }
