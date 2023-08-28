@@ -2,6 +2,7 @@ package patches.buildTypes
 
 import jetbrains.buildServer.configs.kotlin.*
 import jetbrains.buildServer.configs.kotlin.buildFeatures.PullRequests
+import jetbrains.buildServer.configs.kotlin.buildFeatures.commitStatusPublisher
 import jetbrains.buildServer.configs.kotlin.buildFeatures.pullRequests
 import jetbrains.buildServer.configs.kotlin.ui.*
 
@@ -20,6 +21,17 @@ changeBuildType(RelativeId("Build")) {
                         tokenId = "tc_token_id:CID_1b09133e4010480227975fc5b899e6de:-1:ecce7b5e-2ca6-4487-9b43-8f35c624bd4b"
                     }
                     filterAuthorRole = PullRequests.GitHubRoleFilter.MEMBER
+                }
+            }
+        }
+        add {
+            commitStatusPublisher {
+                vcsRootExtId = "${DslContext.settingsRoot.id}"
+                publisher = github {
+                    githubUrl = "https://api.github.com"
+                    authType = storedToken {
+                        tokenId = "tc_token_id:CID_1b09133e4010480227975fc5b899e6de:-1:511e1e89-2c00-4311-83c3-ece1ca845ea8"
+                    }
                 }
             }
         }
