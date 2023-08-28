@@ -30,7 +30,7 @@ changeBuildType(RelativeId("Build")) {
                 publisher = github {
                     githubUrl = "https://api.github.com"
                     authType = storedToken {
-                        tokenId = "tc_token_id:CID_1b09133e4010480227975fc5b899e6de:-1:f553b745-1277-4c64-a7ca-17c71670eb27"
+                        tokenId = "tc_token_id:CID_1b09133e4010480227975fc5b899e6de:-1:6db524cc-4fde-4ccb-a7cb-872bfaefe21b"
                     }
                 }
             }
