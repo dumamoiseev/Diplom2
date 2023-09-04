@@ -25,6 +25,18 @@
         <param name="twoLevelEnabled" value="" />
       </parameters>
     </extension>
+    <extension id="PROJECT_EXT_50" type="OAuthProvider">
+      <parameters>
+        <param name="connectionSubtype" value="gitHubApp" />
+        <param name="displayName" value="GitHub App (1)" />
+        <param name="gitHubApp.appId" value="123" />
+        <param name="gitHubApp.clientId" value="123" />
+        <param name="gitHubApp.ownerUrl" value="https://github.com/username" />
+        <param name="providerType" value="GitHubApp" />
+        <param name="secure:gitHubApp.clientSecret" value="credentialsJSON:500cda7c-20c2-41d2-b0c6-28c075d7d6e3" />
+        <param name="secure:gitHubApp.privateKey" value="credentialsJSON:cd7aa5a0-85d3-4a0e-be82-ecf369a496b2" />
+      </parameters>
+    </extension>
   </project-extensions>
   <cleanup />
 </project>
