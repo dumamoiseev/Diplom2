@@ -46,6 +46,15 @@ project {
             ownerUrl = "https://github.com/dumamoiseev"
             param("twoLevelEnabled", "")
         }
+        githubAppConnection {
+            id = "PROJECT_EXT_51"
+            displayName = "123"
+            appId = "123"
+            clientId = "123"
+            clientSecret = "credentialsJSON:500cda7c-20c2-41d2-b0c6-28c075d7d6e3"
+            privateKey = "credentialsJSON:cd7aa5a0-85d3-4a0e-be82-ecf369a496b2"
+            ownerUrl = "https://github.com/username"
+        }
     }
 }
 
