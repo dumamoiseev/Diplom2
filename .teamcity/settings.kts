@@ -43,6 +43,15 @@ project {
             ownerUrl = "https://github.com/username"
         }
         githubAppConnection {
+            id = "PROJECT_EXT_11"
+            displayName = "true!"
+            appId = "388894"
+            clientId = "Iv1.7f794f35ab833ac3"
+            clientSecret = "credentialsJSON:44f37ca7-4adf-487f-8cea-768fade974fe"
+            privateKey = "credentialsJSON:4f1a5ccd-ca9e-49ae-a96a-175ea8790c81"
+            ownerUrl = "https://github.com/dumamoiseev"
+        }
+        githubAppConnection {
             id = "PROJECT_EXT_8"
             displayName = "GitHub App"
             appId = "3384537845"
