@@ -42,15 +42,6 @@ project {
             privateKey = "credentialsJSON:4f1a5ccd-ca9e-49ae-a96a-175ea8790c81"
             ownerUrl = "https://github.com/dumamoiseev"
         }
-        githubAppConnection {
-            id = "PROJECT_EXT_8"
-            displayName = "GitHub App"
-            appId = "3384537845"
-            clientId = "ergerg24"
-            clientSecret = "credentialsJSON:29d9e908-22c2-4857-9649-b9425db519fb"
-            privateKey = "credentialsJSON:4f1a5ccd-ca9e-49ae-a96a-175ea8790c81"
-            ownerUrl = "https://github.com/username"
-        }
     }
 }
 
