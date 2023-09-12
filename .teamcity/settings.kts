@@ -51,15 +51,6 @@ project {
             privateKey = "credentialsJSON:4f1a5ccd-ca9e-49ae-a96a-175ea8790c81"
             ownerUrl = "https://github.com/username"
         }
-        githubAppConnection {
-            id = "PROJECT_EXT_9"
-            displayName = "added"
-            appId = "123"
-            clientId = "123"
-            clientSecret = "credentialsJSON:03c11ea2-e79b-4508-bb23-484668345ccd"
-            privateKey = "credentialsJSON:4f1a5ccd-ca9e-49ae-a96a-175ea8790c81"
-            ownerUrl = "https://github.com/username"
-        }
     }
 }
 
