@@ -12,6 +12,18 @@
         <param name="showChanges" value="false" />
       </parameters>
     </extension>
+    <extension id="PROJECT_EXT_21" type="OAuthProvider">
+      <parameters>
+        <param name="connectionSubtype" value="gitHubApp" />
+        <param name="displayName" value="fake2" />
+        <param name="gitHubApp.appId" value="123" />
+        <param name="gitHubApp.clientId" value="123" />
+        <param name="gitHubApp.ownerUrl" value="https://github.com/username" />
+        <param name="providerType" value="GitHubApp" />
+        <param name="secure:gitHubApp.clientSecret" value="credentialsJSON:03c11ea2-e79b-4508-bb23-484668345ccd" />
+        <param name="secure:gitHubApp.privateKey" value="credentialsJSON:4f1a5ccd-ca9e-49ae-a96a-175ea8790c81" />
+      </parameters>
+    </extension>
   </project-extensions>
   <cleanup />
 </project>
