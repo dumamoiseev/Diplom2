@@ -70,6 +70,7 @@ object Build : BuildType({
 
     triggers {
         vcs {
+            branchFilter = "+:develop2"
         }
     }
 
