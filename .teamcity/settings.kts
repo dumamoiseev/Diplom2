@@ -46,9 +46,9 @@ project {
             id = "PROJECT_EXT_14"
             displayName = "fake!"
             appId = "123"
-            clientId = "123123"
+            clientId = "123123123"
             clientSecret = "credentialsJSON:03c11ea2-e79b-4508-bb23-484668345ccd"
-            privateKey = "credentialsJSON:4f1a5ccd-ca9e-49ae-a96a-175ea8790c81"
+            privateKey = "credentialsJSON:0915168c-4378-41c9-a42e-ca990b20fa99"
             ownerUrl = "https://github.com/username"
         }
     }
