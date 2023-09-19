@@ -51,7 +51,7 @@ project {
         githubAppConnection {
             id = "PROJECT_EXT_13"
             displayName = "test"
-            appId = "123"
+            appId = "123123"
             clientId = "123"
             clientSecret = "credentialsJSON:b8f3f133-2e3f-4419-82e8-6391ba826149"
             privateKey = "credentialsJSON:63236a69-7055-41bf-9f19-0b40bf62a039"
