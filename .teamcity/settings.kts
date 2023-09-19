@@ -1,5 +1,7 @@
 import jetbrains.buildServer.configs.kotlin.*
+import jetbrains.buildServer.configs.kotlin.buildFeatures.PullRequests
 import jetbrains.buildServer.configs.kotlin.buildFeatures.perfmon
+import jetbrains.buildServer.configs.kotlin.buildFeatures.pullRequests
 import jetbrains.buildServer.configs.kotlin.buildSteps.maven
 import jetbrains.buildServer.configs.kotlin.projectFeatures.githubAppConnection
 import jetbrains.buildServer.configs.kotlin.triggers.vcs
@@ -76,6 +78,15 @@ object Build : BuildType({
 
     features {
         perfmon {
+        }
+        pullRequests {
+            vcsRootExtId = "${DslContext.settingsRoot.id}"
+            provider = github {
+                authType = storedToken {
+                    tokenId = "tc_token_id:CID_7adc2a68e4f0125c5f5c9ddb7b7806a2:-1:94a1c6e2-b4c4-41f1-993f-9c8e0278ed59"
+                }
+                filterAuthorRole = PullRequests.GitHubRoleFilter.MEMBER
+            }
         }
     }
 })
